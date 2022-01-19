@@ -1,0 +1,20 @@
+fuse:
+  network: fuse
+  Vault:
+    address: "0x48F76d2Be0f335b2be88589A1889d5198E6B3551"
+    startBlock: 15059720
+  WeightedPoolFactory:
+    address: "0x13A1d2A9F729cDc485050c53b79689eE9131D898"
+    startBlock: 15059785
+  WeightedPool2TokenFactory:
+    address: "0x3609b8Cb9e8CcC8FEa2492daC82802337B6bc38f"
+    startBlock: 15059868
+  StablePoolFactory:
+    address: "0xb0Bf8981B8f814cFBA6507c84c8Daa7487aE3c9A"
+    startBlock: 15059819
+  MetaStablePoolFactory:
+    address: "0x949BeaE5CA469F7f5b9289FdD4f3Df3D22286068"
+    startBlock: 15059843
+#  LiquidityBootstrappingPoolFactory:
+#    address: ""
+#    startBlock: 0

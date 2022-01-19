@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: 14
       - name: Install
-        run: yarn --frozen-lockfile
+        run: yarn
       - name: Codegen
         run: yarn codegen
       - name: Build
@@ -30,7 +30,7 @@ jobs:
         with:
           node-version: 14
       - name: Install
-        run: yarn --frozen-lockfile
+        run: yarn
       - name: Lint
         run: yarn lint
 
@@ -49,7 +49,7 @@ jobs:
           path: core
           ref: master
       - name: Install
-        run: cd subgraph && yarn --frozen-lockfile
+        run: cd subgraph && yarn
       - name: import abis
         run: cd subgraph && yarn import-abis
       - name: check abis
